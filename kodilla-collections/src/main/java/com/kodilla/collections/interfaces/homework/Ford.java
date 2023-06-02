@@ -4,6 +4,14 @@ public class Ford implements Car {
 
     private int speed;
 
+    public Ford() {
+    }
+
+    public Ford(int speed) {
+        this.speed = speed;
+
+    }
+
 
     @Override
     public int getSpeed() {
