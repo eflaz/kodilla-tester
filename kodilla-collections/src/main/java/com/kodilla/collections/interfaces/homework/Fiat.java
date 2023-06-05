@@ -28,4 +28,11 @@ public class Fiat implements Car {
         speed -= 30;
 
     }
+
+    @Override
+    public String toString() {
+        return "Fiat{" +
+                "speed=" + speed +
+                '}';
+    }
 }
