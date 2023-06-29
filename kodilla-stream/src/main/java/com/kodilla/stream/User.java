@@ -6,6 +6,7 @@ public class User {
     private String username;
     private int age;
     private int numberOfPost;
+    private String group;
 
     public User(String username, int age, int numberOfPost, String group) {
         this.username = username;
@@ -13,8 +14,6 @@ public class User {
         this.numberOfPost = numberOfPost;
         this.group = group;
     }
-
-    private String group;
 
     public String getUsername() {
         return username;

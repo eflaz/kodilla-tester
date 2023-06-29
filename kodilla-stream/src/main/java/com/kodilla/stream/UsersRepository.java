@@ -1,6 +1,5 @@
 package com.kodilla.stream;
 
-import java.util.Objects;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,5 +15,3 @@ public class UsersRepository {
         return users;
     }
 }
-
-
